@@ -55,6 +55,36 @@ module.exports = {
           strictVersion: true,
           requiredVersion: "auto",
         },
+        "@capacitor/app": {
+          singleton: true,
+          strictVersion: true,
+          requiredVersion: "auto",
+        },
+        "@capacitor/camera": {
+          singleton: true,
+          strictVersion: true,
+          requiredVersion: "auto",
+        },
+        "@capacitor/core": {
+          singleton: true,
+          strictVersion: true,
+          requiredVersion: "auto",
+        },
+        "@capacitor/haptics": {
+          singleton: true,
+          strictVersion: true,
+          requiredVersion: "auto",
+        },
+        "@capacitor/keyboard": {
+          singleton: true,
+          strictVersion: true,
+          requiredVersion: "auto",
+        },
+        "@capacitor/status-bar": {
+          singleton: true,
+          strictVersion: true,
+          requiredVersion: "auto",
+        },
 
         ...sharedMappings.getDescriptors(),
       }),

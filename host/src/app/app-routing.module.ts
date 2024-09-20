@@ -8,7 +8,7 @@ const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         type: 'module',
-        remoteEntry: 'http://localhost:4001/remoteEntry.js',
+        remoteEntry: 'https://ionic-module-federation.vercel.app/remoteEntry.js',
         exposedModule: './Module',
       }).then((m) => m.HomePageModule),
   },
