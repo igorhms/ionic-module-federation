@@ -1,0 +1,10 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> REMOTE </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="takePicture()">Take Picture</ion-button>
+  <ion-img *ngIf="photo" [src]="photo"></ion-img>
+</ion-content>
